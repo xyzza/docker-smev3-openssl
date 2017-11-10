@@ -1,0 +1,8 @@
+version: '3'
+services:
+  smev3:
+    restart: always
+    image: "xyzza/smev3-openssl"
+    cap_add:
+      - SYS_ADMIN
+    command: /sbin/init
