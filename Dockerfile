@@ -10,6 +10,7 @@ RUN apt-get install -y gcc \
 wget \
 sudo \
 python3 \
+python3-dev \
 zlib1g-dev \
 python3-pip \
 libssl-dev \
